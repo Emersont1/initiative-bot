@@ -1,0 +1,30 @@
+{
+  "name": "initiative-bot",
+  "version": "1.0.0",
+  "description": "My First Discord Bot",
+  "main": "bot.js",
+  "author": "Your Name",
+  "dependencies": {
+    "bot.js": "0.0.1",
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^11.5.1",
+    "mathjs": "^6.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emersont1/initiative-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emersont1/initiative-bot/issues"
+  },
+  "homepage": "https://github.com/emersont1/initiative-bot#readme"
+}
