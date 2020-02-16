@@ -136,6 +136,7 @@ client.on('message', msg => {
     //console.log(rolls);
     var roll = Math.sum(rolls) - Math.min(rolls);
     msg.reply(roll.toString() + " " + JSON.stringify(rolls));
+    donestuff=true;
   }
 
   if (msg.content == "_dbg") {
