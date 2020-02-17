@@ -127,6 +127,7 @@ client.on('message', msg => {
 
   if (msg.content == "_d100") {
     msg.reply(d(100));
+    donestuff = true;
   }
   if (msg.content == "_stat_roll") {
     var rolls = [];
@@ -145,7 +146,7 @@ client.on('message', msg => {
 
   if (!donestuff) {
     //    msg.channel.send(JSON.stringify(channels));
-    if (d(20) == 1) {
+    if (d(100) == 1) {
 
       msg.reply(" :angry:", {
         files : [
